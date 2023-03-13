@@ -10,7 +10,7 @@ def homepage():
 
 @app.route('/signin')
 def Registration():
-    return render("signin.html")
+    return render_template("signin.html")
 
 
 if __name__ == "__main__":
